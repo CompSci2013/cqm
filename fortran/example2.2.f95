@@ -9,7 +9,7 @@ program temperature
     ! and stores it in variable DecC
     read(*,*)DegC
 
-    !Comment line below to see what happens with undefined variables
+    !Comment line below to see what happens with unassigned variables
     DegF = (9./5.)*DegC + 32.
 
     ! The write statement accepts multiple
